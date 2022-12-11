@@ -21,6 +21,7 @@ import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileReader;
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -125,8 +126,8 @@ public class GlobalFunctions extends ReportManager{
 			 String chrome="chrome";
 		     String ie="ie";
 		     
-		     System.setProperty("webdriver.chrome.driver","C:\\Users\\Admin\\Downloads\\chromedriver_win32\\chromedriver.exe");  
-		  //    System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\Library\\chromedriver.exe");
+		  //   System.setProperty("webdriver.chrome.driver","C:\\Users\\Admin\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		      System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\Library\\chromedriver.exe");
 		    //  System.setProperty("webdriver.chrome.driver","C:\\Users\\Yuvaraju Reddy\\Downloads\\chromedriver_win32 (4)\\chromedriver.exe");
 		    // System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\Library\\chromedriver.exe");	
 		     System.setProperty("webdriver.ie.driver","E:\\\\Workspace\\\\AppLaud\\\\Library\\\\chromedriver.exe");
@@ -413,22 +414,23 @@ public class GlobalFunctions extends ReportManager{
 				
 			/** Method To Read Values From Properties File **/
       public static String launchProperties(String prop){
-	
-	  
-	     Properties properties = new Properties();
-	   try{
-		   
-		
-		  //   FileInputStream fileInput = new FileInputStream(System.getProperty("user.dir")+"\\src\\Config.properties");
-		   FileInputStream fileInput = new FileInputStream(System.getProperty("user.dir")+"\\ConfigFiles\\Config.properties");
 
-		   properties.load(fileInput);
-		
-	      }catch(Exception e){
-		      e.printStackTrace();
-	     }
-	
-	         return properties.getProperty(prop);
+
+		  Properties properties = new Properties();
+
+		  try{
+
+
+			  //		BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
+
+			  properties.load(new FileReader("src/Config.properties"));
+
+
+		  }catch(Exception e){
+			  e.printStackTrace();
+		  }
+
+		  return properties.getProperty(prop);
 }
       
       
