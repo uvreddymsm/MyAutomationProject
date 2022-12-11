@@ -15,7 +15,7 @@ public class SampleProgramThroughFrameWork extends ReportManager{
 	public void TC1() throws Exception {
 		
 		
-		// This is Yuvaraju
+		// This is Yuvaraju R
 		test=extent.startTest( "Sample Program Through Framework");
 		driver=	GlobalFunctions.launchBrowser(driver);
 		GlobalFunctions.openUrl(driver,"url");
@@ -24,10 +24,7 @@ public class SampleProgramThroughFrameWork extends ReportManager{
 		GlobalFunctions.enterText(driver, Locators.FirstName, "John Petter");
 		GlobalFunctions.enterText(driver, Locators.LastName, "Sample");
 		test.log(LogStatus.PASS, "Hey Both First Name and Last Name is entered Sucessfully");
-		
-		
-		
-		
+
 		
 		
 		
