@@ -9,15 +9,34 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import java.io.FileNotFoundException;
 import java.net.MalformedURLException;
 import java.net.URL;
 
 public class RunningCloud {
 
  // public static final String USERNAME = "yuvaraju111";
-  public static final String USERNAME = GlobalFunctions.launchProperties("USERNAME");
-  public static final String AUTOMATE_KEY = GlobalFunctions.launchProperties("AUTOMATEKEY");
-//  public static final String AUTOMATE_KEY = "k9h8nyK3fpaBLnfsQcgC";
+  public static final String USERNAME;
+
+	static {
+		try {
+			USERNAME = GlobalFunctions.launchProperties("USERNAME");
+		} catch (FileNotFoundException e) {
+			throw new RuntimeException(e);
+		}
+	}
+
+	public static final String AUTOMATE_KEY;
+
+	static {
+		try {
+			AUTOMATE_KEY = GlobalFunctions.launchProperties("AUTOMATEKEY");
+		} catch (FileNotFoundException e) {
+			throw new RuntimeException(e);
+		}
+	}
+
+	//  public static final String AUTOMATE_KEY = "k9h8nyK3fpaBLnfsQcgC";
   public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
   public static WebDriver driver;
   @Parameters({ "BrowserName", "BrowserVersion", "OSName", "OSVersion" })

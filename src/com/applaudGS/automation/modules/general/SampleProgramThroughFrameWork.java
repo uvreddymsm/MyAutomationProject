@@ -18,7 +18,7 @@ public class SampleProgramThroughFrameWork extends ReportManager{
 		// Removed Comment
 		test=extent.startTest( "Sample Program Through Framework");
 		driver=	GlobalFunctions.launchBrowser(driver);
-		GlobalFunctions.openUrl(driver,"url");
+		GlobalFunctions.launchUrl(driver,"https://spiceclub.spicejet.com/signup");
 		test.log(LogStatus.INFO, "Hey Buddy Application Opened Sucessfully");
 		GlobalFunctions.selectValueByVisibleText_Normal(driver, Locators.DropdownForTitle, "Mrs");
 		GlobalFunctions.enterText(driver, Locators.FirstName, "John Petter");
@@ -26,8 +26,8 @@ public class SampleProgramThroughFrameWork extends ReportManager{
 		test.log(LogStatus.PASS, "Hey Both First Name and Last Name is entered Sucessfully");
 
 		
-		
-		
+
+
 		
 //		GlobalFunctions.click(driver, Locators.oneWay);
 //		GlobalFunctions.click(driver, Locators.Depature);
@@ -36,15 +36,15 @@ public class SampleProgramThroughFrameWork extends ReportManager{
 		
 	}
 	
-	@Test
-	public void TC2() throws Exception {
-		
-		test=extent.startTest( "Login For Spicejet");
-		test.log(LogStatus.INFO, "Login Sucessfull");
-		
-		
-		
-	}
+//	@Test
+//	public void TC2() throws Exception {
+//
+//		test=extent.startTest( "Login For Spicejet");
+//		test.log(LogStatus.INFO, "Login Sucessfull");
+//
+//
+//
+//	}
 	
 //	@Test
 //	public void TC3() throws Exception {

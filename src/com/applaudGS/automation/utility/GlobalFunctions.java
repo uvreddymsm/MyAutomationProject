@@ -19,10 +19,7 @@ import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -141,7 +138,7 @@ public class GlobalFunctions extends ReportManager{
 				
 					  
 				  }
-			   else if(chrome.equals(launchProperties("browser"))) {
+			   else if(chrome.equals(chrome)) {
 				   ChromeOptions options = new ChromeOptions();
 				   options.addArguments("disable-infobars");
 				  
@@ -413,17 +410,17 @@ public class GlobalFunctions extends ReportManager{
 		     }		
 				
 			/** Method To Read Values From Properties File **/
-      public static String launchProperties(String prop){
+      public static String launchProperties(String prop) throws FileNotFoundException {
 
-
+		  String path="/src/";
 		  Properties properties = new Properties();
+		  File file = new File("src/");
+		  FileInputStream fileInput = new FileInputStream(file.getAbsoluteFile()+"\\Config.properties");
 
 		  try{
 
-
-			  //		BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
-
-			  properties.load(new FileReader("src/Config.properties"));
+		//  properties.load(new FileReader(file.getAbsoluteFile()+"\\Config.properties"));
+		  properties.load(fileInput);
 
 
 		  }catch(Exception e){
@@ -1226,7 +1223,7 @@ public class GlobalFunctions extends ReportManager{
 		}
 	
       
-      public static WebDriver login( WebDriver driver, String username , String password) throws AWTException{
+      public static WebDriver login( WebDriver driver, String username , String password) throws AWTException, FileNotFoundException {
     	  
     	 
    	   Robot robot1 = new Robot();
