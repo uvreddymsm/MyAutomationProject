@@ -15,7 +15,7 @@ public class SampleProgramThroughFrameWork extends ReportManager{
 	public void TC1() throws Exception {
 		
 		
-		// This is Yuvaraju R
+		// Removed Comment
 		test=extent.startTest( "Sample Program Through Framework");
 		driver=	GlobalFunctions.launchBrowser(driver);
 		GlobalFunctions.openUrl(driver,"url");
