@@ -48,8 +48,9 @@ public abstract class ReportManager extends GlobalObjects{
     		String time=GlobalFunctions.getTime();
   
  //   extent = new ExtentReports(System.getProperty("user.dir")+"\\Data\\"+ "\\Report Manager\\"+"CA Tracker"+time+".html", true);
-    extent = new ExtentReports(System.getProperty("user.dir")+"\\Data\\"+ "\\Report Manager\\"+"SpiceJetMorning"+time+".html", true);
-    //   
+  //  extent = new ExtentReports(System.getProperty("user.dir")+"\\Data\\"+ "\\Report Manager\\"+"SpiceJetMorning"+time+".html", true);
+             extent = new ExtentReports(System.getProperty("user.dir")+"\\Data\\"+ "\\Report Manager\\"+"SpiceJetMorning.html", true);
+    //
 	 extent.config()
      .documentTitle("AppLaudGS")
      .reportName("AppLaudGS Automation Reports");
