@@ -1,0 +1,10 @@
+11:59:43.362 INFO - Selenium build info: version: '3.0.1', revision: '1969d75'
+11:59:43.363 INFO - Launching Selenium Grid hub
+11:59:43.878 INFO - Will listen on 4444
+11:59:43.999 INFO - Nodes should register to http://localhost:4444/grid/register/
+11:59:43.999 INFO - Selenium Grid hub is up and running
+12:01:58.615 INFO - Selenium build info: version: '3.0.1', revision: '1969d75'
+12:01:58.616 INFO - Launching Selenium Grid hub
+12:01:59.153 INFO - Will listen on 3631
+12:01:59.272 INFO - Nodes should register to http://localhost:3631/grid/register/
+12:01:59.272 INFO - Selenium Grid hub is up and running

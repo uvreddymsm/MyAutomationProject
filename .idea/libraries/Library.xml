@@ -1,0 +1,28 @@
+<component name="libraryTable">
+  <library name="Library">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Library/mail-1.4.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/sqljdbc-1.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/log4j-1.2.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/MonteScreenRecorder.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/tess4j-3.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/selenium-server-standalone-2.52.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/gherkin-2.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/selenium-server-standalone-3.7.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/testng-6.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/log4j-1.2.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/selenium-server-standalone-3.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/sqlite-jdbc-3.8.11.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/jxl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/sqljdbc4-2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/javax.mail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/jave-1.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/jsoup-1.8.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/aspriseOCR.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/extentreports-java-2.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/itextpdf-5.5.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

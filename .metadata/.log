@@ -1,0 +1,143 @@
+!SESSION 2017-03-16 17:26:46.141 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-03-16 17:27:30.653
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yuvaraju.reddy.Applaud'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2017-03-16 17:43:42.924
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Applaud_Automation_WorkSpace\eclipse\plugins\org.testng.eclipse_6.10.0.201612030230\lib\testng-remote.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\bin C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\extentreports-java-2.10.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\testng-6.8.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\sqlite-jdbc-3.8.11.1.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\jsoup-1.8.3.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\jxl.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\log4j-1.2.15.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\log4j-1.2.16.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\sqljdbc-1.2.0.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\sqljdbc4-2.0.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\mail-1.4.7.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\selenium-server-standalone-3.0.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 12485 -protocol json -d C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\test-output C:\Users\YUVARA~1.VER\AppData\Local\Temp\testng-eclipse--624095160\testng-customsuite.xml
+java -ea -classpath D:\Applaud_Automation_WorkSpace\eclipse\plugins\org.testng.eclipse_6.10.0.201612030230\lib\testng-remote.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\bin:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\extentreports-java-2.10.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\testng-6.8.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\sqlite-jdbc-3.8.11.1.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\jsoup-1.8.3.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\jxl.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\log4j-1.2.15.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\log4j-1.2.16.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\sqljdbc-1.2.0.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\sqljdbc4-2.0.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\mail-1.4.7.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\selenium-server-standalone-3.0.1.jar org.testng.remote.RemoteTestNG -serport 12485 -protocol json -d C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\test-output C:\Users\YUVARA~1.VER\AppData\Local\Temp\testng-eclipse--624095160\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-03-16 17:45:52.682
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Applaud_Automation_WorkSpace\eclipse\plugins\org.testng.eclipse_6.10.0.201612030230\lib\testng-remote.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\bin C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\extentreports-java-2.10.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\testng-6.8.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\sqlite-jdbc-3.8.11.1.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\jsoup-1.8.3.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\jxl.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\log4j-1.2.15.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\log4j-1.2.16.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\sqljdbc-1.2.0.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\sqljdbc4-2.0.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\mail-1.4.7.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\selenium-server-standalone-3.0.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 12591 -protocol json -d C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\test-output C:\Users\YUVARA~1.VER\AppData\Local\Temp\testng-eclipse-1584579709\testng-customsuite.xml
+java -ea -classpath D:\Applaud_Automation_WorkSpace\eclipse\plugins\org.testng.eclipse_6.10.0.201612030230\lib\testng-remote.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\bin:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\extentreports-java-2.10.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\testng-6.8.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\sqlite-jdbc-3.8.11.1.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\jsoup-1.8.3.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\jxl.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\log4j-1.2.15.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\log4j-1.2.16.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\sqljdbc-1.2.0.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\sqljdbc4-2.0.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\mail-1.4.7.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\selenium-server-standalone-3.0.1.jar org.testng.remote.RemoteTestNG -serport 12591 -protocol json -d C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\test-output C:\Users\YUVARA~1.VER\AppData\Local\Temp\testng-eclipse-1584579709\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-03-16 17:47:03.031
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Applaud_Automation_WorkSpace\eclipse\plugins\org.testng.eclipse_6.10.0.201612030230\lib\testng-remote.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\bin C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\extentreports-java-2.10.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\testng-6.8.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\sqlite-jdbc-3.8.11.1.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\jsoup-1.8.3.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\jxl.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\log4j-1.2.15.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\log4j-1.2.16.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\sqljdbc-1.2.0.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\sqljdbc4-2.0.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\mail-1.4.7.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\selenium-server-standalone-3.0.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 12681 -protocol json -d C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\test-output C:\Users\YUVARA~1.VER\AppData\Local\Temp\testng-eclipse-281694051\testng-customsuite.xml
+java -ea -classpath D:\Applaud_Automation_WorkSpace\eclipse\plugins\org.testng.eclipse_6.10.0.201612030230\lib\testng-remote.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\bin:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\extentreports-java-2.10.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\testng-6.8.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\sqlite-jdbc-3.8.11.1.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\jsoup-1.8.3.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\jxl.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\log4j-1.2.15.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\log4j-1.2.16.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\sqljdbc-1.2.0.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\sqljdbc4-2.0.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\mail-1.4.7.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\selenium-server-standalone-3.0.1.jar org.testng.remote.RemoteTestNG -serport 12681 -protocol json -d C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\test-output C:\Users\YUVARA~1.VER\AppData\Local\Temp\testng-eclipse-281694051\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-03-16 17:49:18.726
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Applaud_Automation_WorkSpace\eclipse\plugins\org.testng.eclipse_6.10.0.201612030230\lib\testng-remote.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\bin C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\extentreports-java-2.10.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\testng-6.8.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\sqlite-jdbc-3.8.11.1.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\jsoup-1.8.3.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\jxl.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\log4j-1.2.15.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\log4j-1.2.16.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\sqljdbc-1.2.0.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\sqljdbc4-2.0.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\mail-1.4.7.jar C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\selenium-server-standalone-3.0.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 12837 -protocol json -d C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\test-output C:\Users\YUVARA~1.VER\AppData\Local\Temp\testng-eclipse-2107143692\testng-customsuite.xml
+java -ea -classpath D:\Applaud_Automation_WorkSpace\eclipse\plugins\org.testng.eclipse_6.10.0.201612030230\lib\testng-remote.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\bin:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\extentreports-java-2.10.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\testng-6.8.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\sqlite-jdbc-3.8.11.1.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\jsoup-1.8.3.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\jxl.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\log4j-1.2.15.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\log4j-1.2.16.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\sqljdbc-1.2.0.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\sqljdbc4-2.0.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\mail-1.4.7.jar:C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\Library\selenium-server-standalone-3.0.1.jar org.testng.remote.RemoteTestNG -serport 12837 -protocol json -d C:\Users\yuvaraju.reddy.Applaud\Desktop\RQuest\test-output C:\Users\YUVARA~1.VER\AppData\Local\Temp\testng-eclipse-2107143692\testng-customsuite.xml
+!SESSION 2017-04-06 17:34:34.043 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.epp.logging.aeri.ui 2 5 2017-04-06 17:34:59.849
+!MESSAGE The configuration download failed. Version: 1.0.1.v20150913-0716
+!STACK 0
+org.apache.http.conn.ConnectTimeoutException: Connect to dev.eclipse.org:443 [dev.eclipse.org/198.41.30.200] failed: Read timed out
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:134)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ui.v2.AeriServer.request(AeriServer.java:57)
+	at org.eclipse.epp.internal.logging.aeri.ui.v2.AeriServer.refreshConfiguration(AeriServer.java:73)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup.initializeServerAndConfiguration(Startup.java:211)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup.access$4(Startup.java:201)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup$1.run(Startup.java:98)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.readV3Record(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:290)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:259)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
+	... 16 more
+
+!ENTRY org.eclipse.epp.logging.aeri.ui 2 29 2017-04-06 17:34:59.942
+!MESSAGE Startup failed, AERI is disabled until next restart. Version: 1.0.1.v20150913-0716
+!STACK 0
+java.lang.RuntimeException: org.apache.http.conn.ConnectTimeoutException: Connect to dev.eclipse.org:443 [dev.eclipse.org/198.41.30.200] failed: Read timed out
+	at com.google.common.base.Throwables.propagate(Throwables.java:160)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup.initializeServerAndConfiguration(Startup.java:219)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup.access$4(Startup.java:201)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup$1.run(Startup.java:98)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to dev.eclipse.org:443 [dev.eclipse.org/198.41.30.200] failed: Read timed out
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:134)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ui.v2.AeriServer.request(AeriServer.java:57)
+	at org.eclipse.epp.internal.logging.aeri.ui.v2.AeriServer.refreshConfiguration(AeriServer.java:73)
+	at org.eclipse.epp.internal.logging.aeri.ide.Startup.initializeServerAndConfiguration(Startup.java:211)
+	... 3 more
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.readV3Record(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:290)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:259)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
+	... 16 more
+!SESSION 2017-07-04 05:29:03.287 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.jobs 2 2 2017-07-04 05:30:19.635
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.epp.internal.logging.aeri.ui.log.ProblemsDatabaseUpdateJob

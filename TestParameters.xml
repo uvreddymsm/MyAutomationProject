@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Testing Parameterization">
+	<parameter name="browser" value="firefox"/>
+	<parameter name="username" value="uvreddymsm@gmail.com"/>
+	<parameter name="password" value="djcdscjsdc"/>
+		<classes>
+			<class name="com.applaudGS.automation.modules.general.TestParameters" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

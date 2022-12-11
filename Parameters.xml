@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  	<parameter name="browser" value="Chrome"/>
+	<parameter name="username" value="uvreddymsm@outline.com"/>
+	<parameter name="password" value="djcdscjsdc"/>
+	<parameter name="PhoneNo" value="9999999999"/>
+	<parameter name="Address" value="Bangalore, Hyderabad"/>
+	
+    <classes>
+      
+     <class name="com.applaudGS.automation.modules.general.TestParameters" /> 
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
