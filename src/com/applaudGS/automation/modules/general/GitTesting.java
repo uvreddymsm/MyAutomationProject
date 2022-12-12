@@ -7,7 +7,7 @@ public class GitTesting {
 
     @Test
     public void refundTransactions(){
-        System.out.println("This Mehtod Is For Refund Transactions");
+        System.out.println("Hey Buddy This Mehtod Is For Refund Transactions");
 
     }
 
